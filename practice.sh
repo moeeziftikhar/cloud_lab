@@ -41,3 +41,4 @@ done
 fi
 echo "done"
   
+echo "Git is now tracking my work!"
