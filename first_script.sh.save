@@ -1,0 +1,34 @@
+#"d	!/bin/bash
+# My first bash script
+# Written by Moeez
+
+name="Moeez"
+city="Rawalpindi"
+goal="Cloud Engineer"
+
+echo "========================="
+echo "  My Cloud Journey"
+echo "========================="
+echo "Name : $name"
+echo "City : $city"
+echo "Goal : $goal"
+echo "========================="
+
+if [ $goal = "Cloud Engineer" ]
+then
+    echo "Great choice $name!"
+    echo "You are on the right path!"
+else
+    echo "Choose cloud engineering!"
+fi
+
+echo "========================="
+
+echo "My daily tasks:"
+for task in Linux AWS DevOps MLOps
+do
+    echo "- Learn $task"
+done
+
+echo "========================="
+echo "Lets get to work!"
